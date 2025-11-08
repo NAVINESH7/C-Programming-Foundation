@@ -1,0 +1,18 @@
+#include <stdio.h>
+void disp_assend(int);
+int main()
+{
+   int a;
+   printf("Enter the number : ");
+   scanf("%d",&a);
+   disp_assend(a);
+}
+void disp_assend(int a)
+{
+    int i=1;
+    while(i<=a)
+    {
+        printf("%d\n",i);
+        i++;
+    }
+}
