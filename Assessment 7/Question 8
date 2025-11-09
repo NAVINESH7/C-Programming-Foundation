@@ -1,0 +1,17 @@
+#include <stdio.h>
+void disp_2digit_odd_below20(int);
+int main()
+{
+   int a=20;
+   disp_2digit_odd_below20(a);
+}
+void disp_2digit_odd_below20(int a)
+{
+    int i=11;
+    while(i<=a)
+    {
+        printf("\n%d",i);
+        i=i+2;
+    }
+    
+}
